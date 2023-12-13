@@ -3,17 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ApexChart from './ApexChart';
-import DonutChart from './DonutChart';
-import PyramidChart from './PyramidChart';
+import Dashboard from './Dashboard';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <ApexChart />
-    <DonutChart />
-    <PyramidChart />
+    <Dashboard />
   </React.StrictMode>
 );
 

@@ -22,6 +22,6 @@ export default function Chart(props) {
     }]
  
     return (
-        <ApexChart options={options} series={series} type="candlestick" width={640} height={480} />
+        <ApexChart options={options} series={series} type="candlestick" width="100%" height={480} />
     )
 }
