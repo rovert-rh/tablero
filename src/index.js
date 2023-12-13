@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ApexChart from './ApexChart';
 import DonutChart from './DonutChart';
+import PyramidChart from './PyramidChart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <ApexChart />
     <DonutChart />
+    <PyramidChart />
   </React.StrictMode>
 );
 
